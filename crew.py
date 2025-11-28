@@ -66,7 +66,7 @@ task2 = Task(
     description=question2,
     expected_output="A detailed explanation of recursion concepts with examples",
     agent=explainer,
-  
+    context=[task1],
 )
 
 
